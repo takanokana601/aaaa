@@ -1,0 +1,96 @@
+@charset "Shift_JIS";
+
+*{
+   margin:0; padding:0; 	/*全要素のマージン・パディングをリセット*/
+   line-height:1.5;	/*全要素の行の高さを1rgb.5倍にする*/
+   color:#444247;
+   font-family:'sans-serif';
+
+}
+
+header{
+  text-align:center;
+  margin:20px auto 1  0px;
+  font-size:170%;
+  border-top: solid 3px #364e96;
+  border-bottom: solid 3px #364e96;
+}
+
+li{
+  display:block;
+}
+
+h2{
+  margin:20px 70px 20px;
+  font-size:200%;
+}
+
+
+h3{
+    padding-right:25px;
+  float:left;
+  margin-left:40px;
+}
+
+#syokai{
+  margin-left:40px;
+  font-size:150%;
+
+}
+
+#link {
+  clear:both;
+  margin: 0px 30px;
+  display:inline;
+  font-size:200%;
+}
+
+.menu{
+  color:#50aa95;
+  display:inline-block;
+  margin-top:20px;
+
+}
+
+li#seisaku.menu{                /*左下ボックス*/
+  background-color:#dac74b;
+  transition:0.5s;
+}
+
+li#seisaku.menu:hover{
+  background-color:#c3aa06;
+}
+
+li#reason.menu{                 /*中央下ボックス*/
+  background-color:#5b8cb0;
+  transition:0.5s;
+}
+
+li#reason.menu:hover{
+  background-color:#2a74aa;
+}
+li#mokuhyo.menu{                /*右下ボックス*/
+  background-color:#cb9367;
+  transition:0.5s;
+}
+
+li#mokuhyo.menu:hover{
+  background-color:#b67a20;
+}
+
+.menu a{
+  display:block;
+  padding:30px 150px 90px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+#footer{
+  margin-top:30px;
+  font-size:70%;
+  text-align:center;
+  background-color:#343942;
+}
+
+#footer p{
+  color:#ffffff;
