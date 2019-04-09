@@ -1,8 +1,8 @@
-@charset "Shift_JIS";
+@charset "UTF-8";
 
 *{
-   margin:0; padding:0; 	/*‘S—v‘f‚Ìƒ}[ƒWƒ“EƒpƒfƒBƒ“ƒO‚ğƒŠƒZƒbƒg*/
-   line-height:1.5;	/*‘S—v‘f‚Ìs‚Ì‚‚³‚ğ1rgb.5”{‚É‚·‚é*/
+   margin:0; padding:0; 	/*å…¨è¦ç´ ã®ãƒãƒ¼ã‚¸ãƒ³ãƒ»ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ã‚’ãƒªã‚»ãƒƒãƒˆ*/
+   line-height:1.5;	/*å…¨è¦ç´ ã®è¡Œã®é«˜ã•ã‚’1rgb.5å€ã«ã™ã‚‹*/
    color:#444247;
    font-family:'sans-serif';
 
@@ -52,7 +52,7 @@ h3{
 
 }
 
-li#seisaku.menu{                /*¶‰ºƒ{ƒbƒNƒX*/
+li#seisaku.menu{                /*å·¦ä¸‹ãƒœãƒƒã‚¯ã‚¹*/
   background-color:#dac74b;
   transition:0.5s;
 }
@@ -61,7 +61,7 @@ li#seisaku.menu:hover{
   background-color:#c3aa06;
 }
 
-li#reason.menu{                 /*’†‰›‰ºƒ{ƒbƒNƒX*/
+li#reason.menu{                 /*ä¸­å¤®ä¸‹ãƒœãƒƒã‚¯ã‚¹*/
   background-color:#5b8cb0;
   transition:0.5s;
 }
@@ -69,7 +69,7 @@ li#reason.menu{                 /*’†‰›‰ºƒ{ƒbƒNƒX*/
 li#reason.menu:hover{
   background-color:#2a74aa;
 }
-li#mokuhyo.menu{                /*‰E‰ºƒ{ƒbƒNƒX*/
+li#mokuhyo.menu{                /*å³ä¸‹ãƒœãƒƒã‚¯ã‚¹*/
   background-color:#cb9367;
   transition:0.5s;
 }

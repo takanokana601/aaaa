@@ -1,8 +1,8 @@
 
-@charset "Shift_JIS";
+@charset "UTF-8";
 
 *{
-   margin:0; padding:0; 	/*‰Šú‰»*/
+   margin:0; padding:0; 	/*åˆæœŸåŒ–*/
    line-height:1.5;
    color:#444247;
    font-family:'sans-serif';
